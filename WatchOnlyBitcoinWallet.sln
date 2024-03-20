@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchOnlyBitcoinWallet", "WatchOnlyBitcoinWallet\WatchOnlyBitcoinWallet.csproj", "{3E275526-08A4-4B6B-8E69-9C6194198220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMLibrary", "CommonLibrary\MVVMLibrary.csproj", "{3B31423A-CC27-44BB-9D19-A5DA92D0326D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitcoinLibrary", "BitcoinLibrary\BitcoinLibrary.csproj", "{8FCC2C76-56F8-465F-B467-A21CF487B4EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitcoinLibraryTests", "BitcoinLibraryTests\BitcoinLibraryTests.csproj", "{9948D343-8D56-45C0-9809-7664D8953563}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E275526-08A4-4B6B-8E69-9C6194198220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E275526-08A4-4B6B-8E69-9C6194198220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E275526-08A4-4B6B-8E69-9C6194198220}.Debug|x64.ActiveCfg = Debug|x64
+		{3E275526-08A4-4B6B-8E69-9C6194198220}.Debug|x64.Build.0 = Debug|x64
+		{3E275526-08A4-4B6B-8E69-9C6194198220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E275526-08A4-4B6B-8E69-9C6194198220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E275526-08A4-4B6B-8E69-9C6194198220}.Release|x64.ActiveCfg = Release|x64
+		{3E275526-08A4-4B6B-8E69-9C6194198220}.Release|x64.Build.0 = Release|x64
+		{3B31423A-CC27-44BB-9D19-A5DA92D0326D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B31423A-CC27-44BB-9D19-A5DA92D0326D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B31423A-CC27-44BB-9D19-A5DA92D0326D}.Debug|x64.ActiveCfg = Debug|x64
+		{3B31423A-CC27-44BB-9D19-A5DA92D0326D}.Debug|x64.Build.0 = Debug|x64
+		{3B31423A-CC27-44BB-9D19-A5DA92D0326D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B31423A-CC27-44BB-9D19-A5DA92D0326D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B31423A-CC27-44BB-9D19-A5DA92D0326D}.Release|x64.ActiveCfg = Release|x64
+		{3B31423A-CC27-44BB-9D19-A5DA92D0326D}.Release|x64.Build.0 = Release|x64
+		{8FCC2C76-56F8-465F-B467-A21CF487B4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCC2C76-56F8-465F-B467-A21CF487B4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCC2C76-56F8-465F-B467-A21CF487B4EA}.Debug|x64.ActiveCfg = Debug|x64
+		{8FCC2C76-56F8-465F-B467-A21CF487B4EA}.Debug|x64.Build.0 = Debug|x64
+		{8FCC2C76-56F8-465F-B467-A21CF487B4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCC2C76-56F8-465F-B467-A21CF487B4EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FCC2C76-56F8-465F-B467-A21CF487B4EA}.Release|x64.ActiveCfg = Release|x64
+		{8FCC2C76-56F8-465F-B467-A21CF487B4EA}.Release|x64.Build.0 = Release|x64
+		{9948D343-8D56-45C0-9809-7664D8953563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9948D343-8D56-45C0-9809-7664D8953563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9948D343-8D56-45C0-9809-7664D8953563}.Debug|x64.ActiveCfg = Debug|x64
+		{9948D343-8D56-45C0-9809-7664D8953563}.Debug|x64.Build.0 = Debug|x64
+		{9948D343-8D56-45C0-9809-7664D8953563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9948D343-8D56-45C0-9809-7664D8953563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9948D343-8D56-45C0-9809-7664D8953563}.Release|x64.ActiveCfg = Release|x64
+		{9948D343-8D56-45C0-9809-7664D8953563}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45EAC669-7E49-42F0-B2E8-94951854ECFE}
+	EndGlobalSection
+EndGlobal
